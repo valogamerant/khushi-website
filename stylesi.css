@@ -122,7 +122,7 @@ button{
 
   @font-face {
     font-family: 'MyFont';
-    src: url('veteran\ typewriter.ttf') format('truetype');
+    src: url('font/veteran\ typewriter.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
