@@ -1,0 +1,148 @@
+@import url(https://db.onlinewebfonts.com/c/4c19fc875e7ba1e6831129de3ab5ac0b?family=Retro+Gaming);
+body{
+    font-family: helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;  
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #2d1e2f, #4b2e39, #363121);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+    color: white;  
+    margin: 50px;
+}
+
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+h1{
+    font-family: 'MyFont', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+img#image{
+    width: 500px;
+    height: 500px;
+    border: 10px solid gray;
+    border-radius: 25px;
+}
+button{
+    width: 500px;
+    height: 100px;
+    font-family: "Retro Gaming";
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    font-size: 50px;
+    border-style: solid;
+    box-shadow: 0 0 10px 0px rgb(153, 140, 151);
+}
+.btns{
+    width: 500px;
+    height: 100px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    font-size: 50px;
+    border-style: solid;
+    box-shadow: 0 0 10px 0px #bfa980;
+    margin: 50px;
+    cursor: pointer;
+}
+
+.btns#btn1{
+   float: left;
+}
+.btns#btn2{
+    float: center;
+}
+.btns#btn3{
+    Float: right;
+    width: 800px;
+}
+
+.btn-container {
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+}
+
+.button-wrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-right: 20px;
+  }
+  
+  .hover-button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .hover-img {
+    width: 150px;
+    margin-bottom: -20px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+    position: absolute;
+    top: -50px;
+    z-index: 10;
+  }
+
+  .hover-img1 {
+    width: 150px;
+    margin-bottom: -20px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+    position: absolute;
+    top: -75px;
+    z-index: 10;
+  }
+  
+  .hover-button:hover .hover-img {
+    opacity: 1;
+  }
+  .hover-button:hover .hover-img1 {
+    opacity: 1;
+  }
+
+  @font-face {
+    font-family: 'MyFont';
+    src: url('veteran\ typewriter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.divider {
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(to right, #bfa980, #a88c5f, #bfa980);
+    margin: 50px auto;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Optional wrapper to center and contain the page neatly */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(20, 15, 10, 0.6); /* semi-transparent overlay for readability */
+    border: 1px solid #a88c5f;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}

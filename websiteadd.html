@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.9.3/tsparticles.confetti.bundle.min.js"></script>
+        <meta charset="utf-8">
+        <meta name ="viewport" content="width=device-width, initial -scale=1">
+        <link  rel = "stylesheet" href = "stylesi.css">
+        <title> Khushu website </title>
+    </head>
+    <body>
+
+        <div class="container">
+        <h1 id="og"> This is what an Adish website looks like </h1>
+        </div>
+
+        <br>
+        <div class="divider"></div>
+
+        <div class="button-wrapper">
+        <div class="hover-button">
+        <img src="flowerpic.png" class="hover-img1">
+        <a href = "https://drive.google.com/file/d/1tWG3hJMsUPy45Vgs3VVcqccbOT-D1vO0/view"><button id = "btn1" class = "btns" >Memories</button></a>
+        </div>
+        
+
+        <div class="hover-button">
+        <img src="ring.png" class="hover-img">
+        <button onclick="launchconfetti()" id = "btn2" class = "btns" >Marry me?</button> 
+        </div>
+        
+
+        <div class="hover-button">
+        <a href="https://www.youtube.com/watch?v=NkQrKxTFARM>"><Button class = "btns" id = "btn3">3 buttons makes it aesthetic</Button></a>
+        <img src="p&f.png" class="hover-img">
+        </div>
+        </div>
+
+        <script>
+        function launchconfetti(){
+            confetti({
+            particleCount:1000,
+            spread: 100,
+            origin: { y: 0.6 },
+            });
+            document.getElementById("og").innerHTML = "Cow Potato is Happeningggggggggggggg";
+            }
+        </script>
+    </body>
+</html>
